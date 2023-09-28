@@ -1,0 +1,67 @@
+/* CSS HSL 
+--gunmetal: hsla(186, 100%, 8%, 1);
+--chartreuse: hsla(71, 100%, 65%, 1);
+--bittersweet: hsla(1, 100%, 69%, 1);
+--razzle-dazzle-rose: hsla(315, 100%, 59%, 1);
+--fandango: hsla(315, 82%, 35%, 1);
+*/
+
+h1, p {
+    text-align: center;
+    color: hsla(186, 100%, 8%, 1);
+    margin: 1em auto;
+    font-family: Arial Narrow;
+}
+
+h1 {
+    font-family: Tahoma;
+}
+
+body {
+    background-color: hsla(1, 100%, 69%, 1);
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+fieldset {
+    background-color:hsla(71, 100%, 65%, 1) ;
+    padding: 1em;
+    border-radius: 8px;
+    border: none;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+    color: hsla(186, 100%, 8%, 1);
+    font-family: Tahoma;
+}
+
+hr {
+    margin: 1rem 0 1rem 0;
+}
+
+input, textarea {
+    background-color: hsla(186, 100%, 8%, 1);
+    color: white;
+}
+
+.biginput {
+    display: block;
+    margin-top: 1vh;
+    width: 100%;
+    min-height: 2em;
+}
+
+#submit {
+    width: 100%;
+    min-height: 2.5em;
+    font-weight: bold;
+    color: hsla(315, 82%, 35%, 1);
+}

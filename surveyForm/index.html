@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Survey Form</title>
+        <meta name="the-survey" content="building a form for freeCodeCamp">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 id="title">Survey Form</h1>
+
+        <p id="description">This is a survey form build from scratch using HTML and CSS.</p>
+        <p>Form for research on video watching habits</p>
+
+        <form id="survey-form">
+
+            <fieldset>
+
+                <label id="name-label">Enter your name:
+                    <input id="name" class="biginput" type="text" required placeholder="Marie Antoinette">
+                </label>
+                <label id="email-label">Enter your email:
+                    <input id="email" class="biginput" type="email" required placeholder="marielovescat@email.com">
+                </label>
+                <label id="number-label">Enter your age:
+                    <input id="number" class="biginput" type="number" min="3" max="120" placeholder="25">
+                </label>
+                <hr>
+                <label id="dropdown-select">Which video hardware do you prefer?
+                    <select id="dropdown">
+                        <option value="">(select one)</option>
+                        <option value="1">TV</option>
+                        <option value="2">Computer Monitor</option>
+                        <option value="3">Smartphone</option>
+                        <option value="4">Other</option>
+                    </select>
+                </label>
+                <hr>
+                <label id="radiobuttons" name="buttons">Which of these video plataforms do you watch the usually most?
+                    <label for="radio1">
+                        <input id="radio1" type="radio" value="youtube" name="plat" > YouTube
+                    </label>
+                    <label for="radio2">
+                        <input id="radio2" type="radio" value="twitch" name="plat" > Twitch
+                    </label>
+                    <label for="radio3">
+                        <input id="radio3" type="radio" value="amazon" name="plat" > Amazon
+                    </label>
+                    <label for="radio4">
+                        <input id="radio4" type="radio" value="vimeo" name="plat" > Vimeo
+                    </label>
+                    <label for="radio5">
+                        <input id="radio5" type="radio" value="tiktok" name="plat"" > TikTok
+                    </label>
+                    <label for="radio6">
+                        <input id="radio6" type="radio" value="hulu" name="plat" > Hulu
+                    </label>
+                </label>
+                <hr>
+                <label id="checkboxbuttons">What kind of video do you watch most on the plataform selected above? (You can check more than one box)
+                    <label for="checkbox1">
+                        <input id="checkbox1" type="checkbox" value="vlogs" > Vlogs
+                    </label>
+                    <label for="checkbox2">
+                        <input id="checkbox2" type="checkbox" value="essays"> Essays
+                    </label>
+                    <label for="checkbox3">
+                        <input id="checkbox3" type="checkbox" value="movies"> Movies
+                    </label>
+                    <label for="checkbox4">
+                        <input id="checkbox4" type="checkbox" value="series"> Series
+                    </label>
+                    <label for="checkbox5">
+                        <input id="checkbox5" type="checkbox" value="sports"> Sports
+                    </label>
+                    <label for="checkbox6">
+                        <input id="checkbox6" type="checkbox" value="interviews"> Interviews
+                    </label>
+                </label>
+                <hr>
+                <label id="comments">Describe what you would like it improved on your favorite plataform?
+                    <textarea id="for-comments" class="biginput" row="3" cols="30" placeholder="I wished Vimeo had the option for..."></textarea>
+                </label>
+                <hr>
+                <label id="submit-button">
+                    <input id="submit" type="submit">
+                </label>
+
+            </fieldset>
+            
+        </form>
+       
+    </body>
+</html>

@@ -1,6 +1,70 @@
-#image {
-    max-width: 400px;
-    max-height: 600px;
+body {
+    font-family: system-ui, serif;
+    background-color: #02031a;
+}
+
+h1 {
+    text-align: center;
+    color: #ebdfcc;
+}
+
+#information {
+    background-color: #ebdfcc;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 700px;
+    width: 80%;
+    margin: 15px auto 15px auto;
+    text-align: justify;
+
+}
+
+#image { /* first big image, after the title*/
+    max-width: 700px;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 30px auto 15px auto;
+    border-radius: 10px;
 }
+
+p {
+    text-indent: 20px;
+    font-size: 17px;
+}
+
+a {
+    color: #b10c43;
+    text-decoration: none;
+}
+
+em {
+    font-weight: bold;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .gallery::after {
+    content: "";
+    width: 350px;
+  }
